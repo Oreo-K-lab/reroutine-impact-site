@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="compare-infographic" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="compare-title-svg compare-desc-svg">
+  <title id="compare-title-svg">一般的な使い捨て方式とRE:ROUTINEの比較</title>
+  <desc id="compare-desc-svg">年間の商品利用18回分を共通条件に、使用後の流れと容器の再利用を項目別に比較する表。</desc>
+  <defs><style>
+    #compare-infographic .jp{font-family:"Zen Kaku Gothic New","Noto Sans JP",sans-serif;fill:#172522}#compare-infographic .en{font-family:Manrope,Arial,sans-serif;fill:#172522}#compare-infographic .inverse{fill:#F7F6F1}#compare-infographic .label{font-size:13px;font-weight:700;letter-spacing:.12em}#compare-infographic .head{font-size:22px;font-weight:600}#compare-infographic .head-neutral{font-size:22px;font-weight:600;fill:#52635F}#compare-infographic .head-accent{font-size:24px;font-weight:800;fill:#247C72}#compare-infographic .row{font-size:17px;font-weight:500}#compare-infographic .row-accent{font-size:19px;font-weight:700;fill:#247C72}#compare-infographic .big{font-size:38px;font-weight:700}#compare-infographic .big-accent{font-size:42px;font-weight:800;fill:#247C72}#compare-infographic .small{font-size:13px;font-weight:400}#compare-infographic .muted{fill:#52635F}#compare-infographic .accent{fill:#247C72}#compare-infographic .rule{stroke:#BFCBC7;stroke-width:1}#compare-infographic .icon{fill:none;stroke:#247C72;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}#compare-infographic .icon-neutral{stroke:#84918D}
+  </style></defs>
+  <rect width="1200" height="720" rx="28" fill="#F7F6F1"/>
+  <text x="64" y="70" class="en label accent">COMPARE</text>
+  <text x="64" y="112" class="jp" font-size="34" font-weight="600">同じ<tspan data-field="annualUses">—</tspan>回分でも、容器の流れが違います。</text>
+  <text x="64" y="145" class="jp small" fill="#52635F">ホームケア製品<tspan data-field="productTypes">—</tspan>種をそれぞれ年<tspan data-field="usesPerProduct">—</tspan>回購入・補充する、計<tspan data-field="annualUses">—</tspan>回分で比較</text>
+
+  <rect x="64" y="186" width="1072" height="424" rx="22" fill="#FFFFFF" stroke="#D9DEDC"/>
+  <rect x="304" y="186" width="416" height="88" fill="#EDF0EF"/>
+  <rect x="720" y="274" width="416" height="336" fill="#F2F8F4"/>
+  <path d="M720 186H1114A22 22 0 0 1 1136 208V274H720Z" fill="#DDEBE5"/>
+  <text x="96" y="240" class="jp head">比較項目</text>
+  <text x="512" y="240" text-anchor="middle" class="jp head-neutral">一般的な使い捨て方式</text>
+  <text x="928" y="240" text-anchor="middle" class="en head-accent">RE:ROUTINE</text>
+  <line x1="64" y1="274" x2="1136" y2="274" class="rule"/><line x1="304" y1="186" x2="304" y2="610" class="rule"/><line x1="720" y1="186" x2="720" y2="610" class="rule"/>
+  <line x1="64" y1="386" x2="1136" y2="386" class="rule"/><line x1="64" y1="498" x2="1136" y2="498" class="rule"/>
+
+  <text x="96" y="338" class="jp row">年間の商品利用</text>
+  <text x="512" y="330" text-anchor="middle" class="en big"><tspan data-field="annualUses">—</tspan><tspan class="jp" font-size="19">回分</tspan></text><text x="512" y="357" text-anchor="middle" class="jp small muted">利用ごとに新しい容器</text>
+  <text x="928" y="330" text-anchor="middle" class="en big"><tspan data-field="annualUses">—</tspan><tspan class="jp" font-size="19">回分</tspan></text><text x="928" y="357" text-anchor="middle" class="jp small muted">回収容器で繰り返し供給</text>
+
+  <text x="96" y="450" class="jp row">使用後の流れ</text>
+  <g transform="translate(421 417)"><path d="M0 0h26l-3 50H3Z" class="icon icon-neutral"/><path d="M-4 0h34M7-8h12" class="icon icon-neutral"/></g><text x="535" y="440" text-anchor="middle" class="jp row muted">廃棄・資源回収</text><text x="535" y="464" text-anchor="middle" class="jp small muted">容器<tspan data-field="annualUses">—</tspan>本（想定）</text>
+  <g transform="translate(805 421)"><path d="M0 20 A24 24 0 1 1 1.75 29" class="icon"/><path d="M1.75 37 V29 L10.5 33.5" class="icon"/></g><text x="960" y="450" text-anchor="middle" class="jp row-accent">回収・洗浄・再充填</text>
+
+  <text x="96" y="562" class="jp row">容器の再利用</text>
+  <text x="512" y="552" text-anchor="middle" class="jp muted" font-size="27" font-weight="600">再利用なし</text><text x="512" y="580" text-anchor="middle" class="jp small muted">購入ごとに使い切り</text>
+  <text x="928" y="552" text-anchor="middle" class="en big-accent"><tspan class="jp accent" font-size="19">平均</tspan><tspan data-field="averageReuses">—</tspan><tspan class="jp accent" font-size="19">回</tspan></text><text x="928" y="580" text-anchor="middle" class="jp small muted">流通中容器の再利用回数（想定）</text>
+
+  <rect x="64" y="630" width="1072" height="48" rx="12" fill="#172522"/>
+  <text x="88" y="660" class="jp small inverse" data-field="svgComparisonNote"></text>
+</svg>

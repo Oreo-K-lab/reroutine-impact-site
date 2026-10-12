@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="flow-title flow-desc">
+  <title id="flow-title">RE:ROUTINE 循環フロー</title>
+  <desc id="flow-desc">受け取り、使用、保管、返却、検品、洗浄、再充填して再配送する7工程の円環図。再利用できない容器は素材リサイクルへ回す想定。</desc>
+  <defs>
+    <style>
+      .jp{font-family:"Zen Kaku Gothic New","Noto Sans JP",sans-serif;fill:#172522}.en{font-family:Manrope,Arial,sans-serif;fill:#172522}.inverse{fill:#F7F6F1}.mint-text{fill:#DDEBE5}.lime-text{fill:#C9F04B}.label{font-size:13px;font-weight:700;letter-spacing:.12em}.step{font-size:19px;font-weight:600}.note{font-size:14px;font-weight:400}.num{font-size:17px;font-weight:700}.line{fill:none;stroke:#247C72;stroke-width:7;stroke-linecap:round}.leader{fill:none;stroke:#9AB9B2;stroke-width:2}.node{fill:#F7F6F1;stroke:#247C72;stroke-width:3}.node-alt{fill:#DDEBE5;stroke:#247C72;stroke-width:3}
+    </style>
+    <marker id="arrow" markerWidth="28" markerHeight="28" refX="25" refY="14" orient="auto" markerUnits="userSpaceOnUse"><path d="M2 2L26 14 2 26Z" fill="#247C72"/></marker>
+  </defs>
+  <rect width="1200" height="720" rx="28" fill="#F7F6F1"/>
+  <text x="64" y="70" class="en label" fill="#247C72">HOW IT WORKS</text>
+  <text x="64" y="112" class="jp" font-size="34" font-weight="600">受け取る日に、返すだけ。</text>
+  <text x="64" y="145" class="jp note" fill="#52635F">家庭とRE:ROUTINEをつなぐ、7つの循環ステップ</text>
+
+  <ellipse cx="600" cy="407" rx="215" ry="205" fill="#EDF3EF"/>
+  <path class="line" marker-end="url(#arrow)" d="M652.1 208.1 A215 205 0 0 1 727.1 241.7"/>
+  <path class="line" marker-end="url(#arrow)" d="M795.2 321 A215 205 0 0 1 814.7 396.2"/>
+  <path class="line" marker-end="url(#arrow)" d="M792.3 498.7 A215 205 0 0 1 740.1 562.5"/>
+  <path class="line" marker-end="url(#arrow)" d="M646.4 607.2 A215 205 0 0 1 553.6 607.2"/>
+  <path class="line" marker-end="url(#arrow)" d="M459.9 562.5 A215 205 0 0 1 407.7 498.7"/>
+  <path class="line" marker-end="url(#arrow)" d="M385.3 396.2 A215 205 0 0 1 404.8 321"/>
+  <path class="line" marker-end="url(#arrow)" d="M472.9 241.7 A215 205 0 0 1 547.9 208.1"/>
+
+  <g transform="translate(600 202)"><circle r="51" class="node-alt"/><text y="-5" text-anchor="middle" class="en num">01</text><text y="20" text-anchor="middle" class="jp step">受け取る</text></g>
+  <g transform="translate(765 278)"><circle r="51" class="node"/><text y="-5" text-anchor="middle" class="en num">02</text><text y="20" text-anchor="middle" class="jp step">使う</text></g>
+  <g transform="translate(806 448)"><circle r="51" class="node-alt"/><text y="-5" text-anchor="middle" class="en num">03</text><text y="20" text-anchor="middle" class="jp step">保管</text></g>
+  <g transform="translate(690 578)"><circle r="51" class="node"/><text y="-5" text-anchor="middle" class="en num">04</text><text y="20" text-anchor="middle" class="jp step">返す</text></g>
+  <g transform="translate(510 578)"><circle r="51" class="node-alt"/><text y="-5" text-anchor="middle" class="en num">05</text><text y="20" text-anchor="middle" class="jp step">検品</text></g>
+  <g transform="translate(394 448)"><circle r="51" class="node"/><text y="-5" text-anchor="middle" class="en num">06</text><text y="20" text-anchor="middle" class="jp step">洗浄</text></g>
+  <g transform="translate(435 278)"><circle r="51" fill="#172522"/><text y="-5" text-anchor="middle" class="en num lime-text">07</text><text y="20" text-anchor="middle" class="jp step inverse">再充填</text></g>
+  <g transform="translate(600 407)"><text y="-13" text-anchor="middle" class="en label" fill="#247C72">RE:ROUTINE</text><text y="24" text-anchor="middle" class="jp" font-size="22" font-weight="600">返すだけで、また届く。</text></g>
+
+  <g><path class="leader" d="M184 238H340L550 180"/><text x="64" y="225" class="jp step">家庭で行うこと</text><text x="64" y="253" class="jp note">受け取り、使い終えた容器を</text><text x="64" y="276" class="jp note">次回配送まで保管します。</text></g>
+  <g><path class="leader" d="M884 238H1136"/><text x="884" y="225" class="jp step">次回配送時に回収</text><text x="884" y="253" class="jp note">持ち込みや返送手続きは</text><text x="884" y="276" class="jp note">不要という想定です。</text></g>
+  <g><path class="leader" d="M459 578L330 595H64"/><text x="64" y="552" class="jp step">再利用できない容器</text><text x="64" y="580" class="jp note">検品不合格品は素材リサイクルへ。</text></g>
+  <text x="64" y="675" class="jp" font-size="12" fill="#52635F">※ 工程はポートフォリオ制作上の架空サービス設定です。</text>
+</svg>

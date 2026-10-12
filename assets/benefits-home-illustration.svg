@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">暮らしの中の定位置</title>
+  <desc id="desc">窓から光が入る住まいの棚に、三種類のホームケア容器と回収箱が自然に置かれたミニマルな挿絵。</desc>
+  <path d="M67 374V193C67 121 121 68 193 68H286C358 68 412 121 412 193V374Z" fill="#F7F6F1"/>
+  <path d="M67 374V193C67 121 121 68 193 68H286C358 68 412 121 412 193V374" fill="none" stroke="#B5C8BD" stroke-width="4"/>
+  <path d="M270 71V374M69 251H412" fill="none" stroke="#B5C8BD" stroke-width="3"/>
+  <path d="M78 274L265 123L407 205V374H78Z" fill="#EAE3D2" opacity=".72"/>
+  <circle cx="358" cy="117" r="22" fill="#C9F04B"/>
+  <path d="M0 404H720" stroke="#172522" stroke-width="5"/>
+  <path d="M74 408H659L642 428H88Z" fill="#247C72"/>
+  <path d="M118 428V481M618 428V481" stroke="#247C72" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="355" cy="488" rx="297" ry="14" fill="#172522" opacity=".08"/>
+  <rect x="125" y="195" width="71" height="208" rx="19" fill="#F7F6F1" stroke="#247C72" stroke-width="4"/>
+  <path d="M148 194V170H173V194" fill="#247C72" stroke="#247C72" stroke-width="4"/>
+  <path d="M137 274H184V331H137Z" fill="#EAE3D2"/>
+  <rect x="220" y="171" width="85" height="232" rx="18" fill="#B5C8BD" stroke="#247C72" stroke-width="4"/>
+  <path d="M239 170V153H286V170" fill="#247C72" stroke="#247C72" stroke-width="4"/>
+  <path d="M234 271H291V338H234Z" fill="#F7F6F1"/>
+  <rect x="327" y="210" width="68" height="193" rx="16" fill="#F7F6F1" stroke="#247C72" stroke-width="4"/>
+  <path d="M344 208V178H381V208" fill="#247C72" stroke="#247C72" stroke-width="4"/>
+  <path d="M344 178H409V187H381" fill="none" stroke="#247C72" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M338 290H384V338H338Z" fill="#DDEBE5"/>
+  <path d="M447 300H615V403H447Z" fill="#E9E3D4" stroke="#247C72" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M437 286H625V304H437Z" fill="#F7F6F1" stroke="#247C72" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M489 300V402M573 300V402" stroke="#B5C8BD" stroke-width="3"/>
+  <rect x="512" y="339" width="38" height="12" rx="6" fill="#247C72" opacity=".67"/>
+  <path d="M453 242C465 231 481 229 496 236" fill="none" stroke="#247C72" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+  <path d="M528 223C542 213 560 214 575 224" fill="none" stroke="#247C72" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+</svg>

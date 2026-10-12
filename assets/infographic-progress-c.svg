@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="progress-title-svg progress-desc-svg">
+  <title id="progress-title-svg">RE:ROUTINE 2026年度目標への3ステップ</title>
+  <desc id="progress-desc-svg">回収率、平均再利用回数、使い捨て容器の削減本数を現在値、目標値、目標比付きの階段形式で示す。</desc>
+  <defs>
+    <style>
+      .jp{font-family:"Zen Kaku Gothic New","Noto Sans JP",sans-serif;fill:#172522}.en{font-family:Manrope,Arial,sans-serif;fill:#172522}.inverse{fill:#F7F6F1}.lime-text{fill:#C9F04B}.label{font-size:13px;font-weight:700;letter-spacing:.12em}.step-label{font-size:13px;font-weight:700;letter-spacing:.08em}.head{font-size:23px;font-weight:600}.value{font-size:43px;font-weight:700}.unit{font-size:18px;font-weight:600}.small{font-size:13px;font-weight:400}.target{font-size:16px;font-weight:600}.rule{stroke:#172522;stroke-opacity:.18;stroke-width:1}.rise{fill:none;stroke:#247C72;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+    <marker id="rise-arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M1 1L10 5.5 1 10Z" fill="#247C72"/></marker>
+  </defs>
+  <rect width="1200" height="780" rx="28" fill="#F7F6F1"/>
+  <text x="64" y="70" class="en label" fill="#247C72">2026 GOALS</text>
+  <text x="64" y="112" class="jp" font-size="34" font-weight="600">回収して、もう一度使う。その積み重ねを数字で。</text>
+  <text x="64" y="145" class="jp small" fill="#52635F">回収から削減まで、循環を前へ進める3つのステップ</text>
+
+  <path d="M64 668V370H404V286H756V194H1136V668Z" fill="#EDF3EF"/>
+
+  <g>
+    <path d="M64 668V370H404V668Z" fill="#DDEBE5"/>
+    <circle cx="102" cy="408" r="23" fill="#247C72"/>
+    <text x="102" y="414" text-anchor="middle" class="en inverse" font-size="15" font-weight="700">01</text>
+    <text x="137" y="413" class="en step-label" fill="#247C72">RETURN</text>
+    <text x="92" y="458" class="jp head">回収率を上げる</text>
+    <text x="92" y="486" class="jp small">次回配送時に空容器を返す</text>
+    <text x="92" y="548" class="en value"><tspan data-field="recoveryRate">—</tspan><tspan class="jp unit">%</tspan></text>
+    <text x="92" y="577" class="jp small" fill="#52635F">現在地</text>
+    <line x1="92" y1="595" x2="376" y2="595" class="rule"/>
+    <text x="92" y="625" class="jp target">年度目標</text>
+    <text x="376" y="625" text-anchor="end" class="en" font-size="27" font-weight="700"><tspan data-field="recoveryTarget">—</tspan><tspan class="jp" font-size="15">%</tspan></text>
+    <text x="376" y="650" text-anchor="end" class="jp small" fill="#52635F">目標比 <tspan data-field="recoveryProgress">—</tspan></text>
+  </g>
+
+  <g>
+    <path d="M404 668V286H756V668Z" fill="#FFFFFF" stroke="#D9DEDC"/>
+    <circle cx="442" cy="324" r="23" fill="#EF765F"/>
+    <text x="442" y="330" text-anchor="middle" class="en" font-size="15" font-weight="700">02</text>
+    <text x="477" y="329" class="en step-label" fill="#B84C38">REUSE</text>
+    <text x="432" y="374" class="jp head">再利用回数を伸ばす</text>
+    <text x="432" y="402" class="jp small">検品・洗浄・再充填してまた届ける</text>
+    <text x="432" y="476" class="en value"><tspan data-field="averageReuses">—</tspan><tspan class="jp unit">回</tspan></text>
+    <text x="432" y="505" class="jp small" fill="#52635F">現在地｜流通中容器の平均</text>
+    <line x1="432" y1="530" x2="728" y2="530" class="rule"/>
+    <text x="432" y="565" class="jp target">年度目標</text>
+    <text x="728" y="565" text-anchor="end" class="en" font-size="27" font-weight="700"><tspan data-field="reuseTarget">—</tspan><tspan class="jp" font-size="15">回</tspan></text>
+    <text x="728" y="590" text-anchor="end" class="jp small" fill="#52635F">目標比 <tspan data-field="reuseProgress">—</tspan></text>
+  </g>
+
+  <g>
+    <path d="M756 668V194H1136V668Z" fill="#C9F04B"/>
+    <circle cx="796" cy="234" r="23" fill="#172522"/>
+    <text x="796" y="240" text-anchor="middle" class="en lime-text" font-size="15" font-weight="700">03</text>
+    <text x="831" y="239" class="en step-label">REDUCE</text>
+    <text x="784" y="286" class="jp head">削減本数を増やす</text>
+    <text x="784" y="316" class="jp small">繰り返すほど使い捨てを減らせる</text>
+    <text x="784" y="405" class="en value"><tspan data-field="avoidedContainers">—</tspan><tspan class="jp unit">本</tspan></text>
+    <text x="784" y="434" class="jp small" fill="#52635F">現在地｜想定累計削減数</text>
+    <line x1="784" y1="477" x2="1108" y2="477" class="rule"/>
+    <text x="784" y="521" class="jp target">年度目標</text>
+    <text x="1108" y="521" text-anchor="end" class="en" font-size="27" font-weight="700"><tspan data-field="avoidedTarget">—</tspan><tspan class="jp" font-size="15">本</tspan></text>
+    <text x="1108" y="550" text-anchor="end" class="jp small" fill="#52635F">目標比 <tspan data-field="avoidedProgress">—</tspan></text>
+  </g>
+
+  <path d="M382 370V307H418" class="rise" marker-end="url(#rise-arrow)"/>
+  <path d="M734 286V215H770" class="rise" marker-end="url(#rise-arrow)"/>
+
+  <text x="64" y="712" class="jp" font-size="15" font-weight="500">目標期限｜<tspan data-field="goalDeadline">—</tspan></text>
+  <text x="1136" y="712" text-anchor="end" class="jp small" fill="#52635F" data-field="svgProgressNote"></text>
+</svg>
